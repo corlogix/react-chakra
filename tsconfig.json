@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "baseUrl": "./",
+        "moduleResolution": "Node",
+        "module": "CommonJS",
+        "declaration": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "incremental": true,
+        "composite": true,
+    }
+}
