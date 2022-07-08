@@ -24,7 +24,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16
-          registry-url: https://registry.npmjs.org/
       
       # CONFIGURE
       - name: Configure
@@ -39,7 +38,7 @@ jobs:
       # AUTHENTICATE
       - name: Authenticate
         run: |
-          echo "registry=http://registry.npmjs.org/" >> .npmrc
+          echo "registry=https://registry.npmjs.org/" >> .npmrc
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
           npm whoami
         env:
