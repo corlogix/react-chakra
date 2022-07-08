@@ -1,11 +1,11 @@
 {
-	"name": "react-hook-library",
+	"name": "react-chakra-slate",
 	"version": "0.0.0",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com/corlogix/react-packages.git"
+		"url": "git+ssh://git@github.com/corlogix/react-chakra.git"
 	},
 	"publishConfig": {
 		"access": "public"
@@ -13,9 +13,9 @@
 	"author": "corlogixco@gmail.com",
 	"license": "GPL-3.0-or-later",
 	"bugs": {
-		"url": "https://github.com/corlogix/react-packages/issues"
+		"url": "https://github.com/corlogix/react-chakra/issues"
 	},
-	"homepage": "https://github.com/corlogix/react-packages#readme",
+	"homepage": "https://github.com/corlogix/react-chakra#readme",
 	"scripts": {
 		"build": "tsc",
 		"start": "vite"
