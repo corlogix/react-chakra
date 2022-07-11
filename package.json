@@ -7,7 +7,7 @@
     "postinstall": "npm run bootstrap",
     "clean": "rimraf packages/**/lib",
     "build": "npm run clean && lerna run build --stream",
-    "publish": "lerna publish --yes"
+    "publish": "lerna publish --yes --no-verify-access"
   },
   "repository": {
     "type": "git",
