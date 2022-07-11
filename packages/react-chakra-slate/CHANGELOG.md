@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/corlogix/react-chakra/compare/react-chakra-slate@0.1.4...react-chakra-slate@0.1.5) (2022-07-11)
+
+
+### Bug Fixes
+
+* build ([47cfbf0](https://github.com/corlogix/react-chakra/commit/47cfbf046812eb8cf0805fdca2fc857c5c5ccd62))
+
+
+
+
+
 ## [0.1.4](https://github.com/corlogix/react-chakra/compare/react-chakra-slate@0.1.3...react-chakra-slate@0.1.4) (2022-07-11)
 
 
