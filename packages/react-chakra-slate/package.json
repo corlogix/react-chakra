@@ -1,42 +1,46 @@
 {
-	"name": "react-chakra-slate",
-	"version": "0.1.5",
-	"main": "lib/index.js",
-	"types": "lib/index.d.ts",
-	"repository": {
-		"type": "git",
-		"url": "git+ssh://git@github.com/corlogix/react-chakra.git"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"author": "corlogixco@gmail.com",
-	"license": "GPL-3.0-or-later",
-	"bugs": {
-		"url": "https://github.com/corlogix/react-chakra/issues"
-	},
-	"homepage": "https://github.com/corlogix/react-chakra#readme",
-	"scripts": {
-		"build": "tsc",
-		"start": "vite"
-	},
-	"dependencies": {
-		"escape-html": "1.0.3",
-		"lodash.camelcase": "4.3.0",
-		"slate": "0.81.1",
-		"slate-history": "0.66.0",
-		"slate-hyperscript": "0.77.0",
-		"slate-react": "0.81.0"
-	},
-	"devDependencies": {
-		"@chakra-ui/react": "2.2.1",
-		"@types/lodash.camelcase": "4.3.7",
-		"react-icons": "4.4.0"
-	},
-	"peerDependencies": {
-		"@chakra-ui/react": ">=2.2.1",
-		"react": ">=18.0.0",
-		"react-dom": ">=18.0.0",
-		"react-icons": ">=4.4.0"
-	}
+  "name": "react-chakra-slate",
+  "version": "0.1.5",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/corlogix/react-chakra.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "corlogixco@gmail.com",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/corlogix/react-chakra/issues"
+  },
+  "homepage": "https://github.com/corlogix/react-chakra#readme",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.build.json",
+    "start": "vite"
+  },
+  "dependencies": {
+    "escape-html": "1.0.3",
+    "lodash.camelcase": "4.3.0",
+    "slate": "0.81.1",
+    "slate-history": "0.66.0",
+    "slate-hyperscript": "0.77.0",
+    "slate-react": "0.81.0",
+    "is-hotkey": "0.2.0"
+  },
+  "devDependencies": {
+    "@chakra-ui/react": "2.2.1",
+    "@types/lodash.camelcase": "4.3.7",
+    "react-icons": "4.4.0"
+  },
+  "peerDependencies": {
+    "@chakra-ui/react": ">=2.2.1",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "react-icons": ">=4.4.0"
+  }
 }
