@@ -1,6 +1,6 @@
 {
   "name": "react-chakra-slate",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -25,12 +25,12 @@
   },
   "dependencies": {
     "escape-html": "1.0.3",
+    "is-hotkey": "0.2.0",
     "lodash.camelcase": "4.3.0",
     "slate": "0.81.1",
     "slate-history": "0.66.0",
     "slate-hyperscript": "0.77.0",
-    "slate-react": "0.81.0",
-    "is-hotkey": "0.2.0"
+    "slate-react": "0.81.0"
   },
   "devDependencies": {
     "@chakra-ui/react": "2.2.1",
